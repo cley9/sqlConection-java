@@ -1,0 +1,7 @@
+CREATE TABLE registro(
+ ID int(11) PRIMARY KEY AUTO_INCREMENT,
+    DNI int(11),
+    Nombre varchar(50),
+    Apellido varchar(50),
+    Nacionalidad varchar(50)
+)
