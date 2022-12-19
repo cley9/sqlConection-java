@@ -21,7 +21,9 @@ public class main {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Statement st = null;
         ResultSet rs = null;
+        
         SqlMetodoJ me = new SqlMetodoJ();
+        // si quiere conectar con sql server cambie a sql en la clase me.sqlServe
         Connection co = me.sqlMysql("dbaregistro", "cley", "cley", "localhost");
         //---statement sql 
         //st = co.createStatement();
