@@ -1,4 +1,4 @@
- // si quiere conectarse  con sql server cambie el mentodo en la clase  main me.sqlServe
+ // si quiere conectarse  con sql server cambie el metodo en la clase  main me.sqlServe
 CREATE TABLE registro(
  ID int(11) PRIMARY KEY AUTO_INCREMENT,
     DNI int(11),
